@@ -26,7 +26,15 @@ Brand: The car manufacturer brand
 
 
 ## Jupyter Notebook
-The jupyter notebook used has been defined by using the mpg dataset.The dataset is first preprocessed to remove all NULL values and then passed through various ML algorithmic models.The models used were Linear Regression , Quadratic Polynomial Regression , DecisionTreeRegressor and RandomForestRegressor. Finally RandomForestRegressor was used which gave an r2 score of around 86%(which is good for Supervised Learning Algorithm).
+The Jupyter notebook  uses the mpg dataset to train a machine learning model for predicting the miles per gallon (MPG) of a car. The dataset is first preprocessed to remove any missing or null values, which is a crucial step in ensuring the quality and integrity of the data.
+
+Once the data is cleaned, it is passed through various machine learning algorithmic models, such as Linear Regression, Quadratic Polynomial Regression, DecisionTreeRegressor, and RandomForestRegressor. These models are chosen because they are commonly used for regression tasks, and are well suited for predicting a continuous value such as MPG.
+
+The Linear Regression model makes a prediction by fitting a linear equation to the data, while the Quadratic Polynomial Regression model fits a polynomial equation of degree 2. DecisionTreeRegressor and RandomForestRegressor are both ensemble methods, which combine the predictions of multiple decision trees to make a final prediction.
+
+After training the model with the dataset, the models are evaluated using evaluation metrics such as Mean Squared Error, Root Mean Squared Error, R-squared score, etc. The final model chosen is the one that performs the best on the evaluation metrics.
+
+In this case, the final model chosen is RandomForestRegressor which gave an R-squared score of around 86%, which is considered good for a supervised learning algorithm. The R-squared score is a measure of how well the model fits the data, with a score of 1 indicating a perfect fit and a score of 0 indicating no fit. A score of around 86% indicates that the model is able to explain a significant portion of the variation in the data and make accurate predictions.
 
 ## Web application Screenshot
 ![image](https://user-images.githubusercontent.com/78245820/214334137-9faeee52-7f4d-4491-acd0-cf57cd0f1a36.png)
