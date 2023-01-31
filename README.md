@@ -8,7 +8,8 @@ The output is returned to the website and displayed to the user.
 
 This type of web application can be useful for car manufacturers, buyers, sellers or researchers to estimate the fuel efficiency of the car before buying or selling it. This can also be useful for researchers to compare the performance of different models of cars and find out which models are more fuel-efficient.
 
-##Data
+## Data
+
 The dataset consists of the following details:
 
 Engine characteristics: Information about the car's engine, such as the number of cylinders, displacement, and horsepower.
