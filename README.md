@@ -27,13 +27,13 @@ Brand: The car manufacturer brand
 ## Jupyter Notebook
 The Jupyter notebook  uses the mpg dataset to train a machine learning model for predicting the miles per gallon (MPG) of a car.
 
-*The dataset is first preprocessed to remove any missing or null values, which is a crucial step in ensuring the quality and integrity of the data.
+- The dataset is first preprocessed to remove any missing or null values, which is a crucial step in ensuring the quality and integrity of the data.
 
-*The data is cleaned, passed through various machine learning algorithmic models, such as Linear Regression, Quadratic Polynomial Regression, DecisionTreeRegressor, and RandomForestRegressor. These models are chosen because they are commonly used for regression tasks, and are well suited for predicting a continuous value such as MPG.
+- The data is cleaned, passed through various machine learning algorithmic models, such as Linear Regression, Quadratic Polynomial Regression, DecisionTreeRegressor, and RandomForestRegressor. These models are chosen because they are commonly used for regression tasks, and are well suited for predicting a continuous value such as MPG.
 
-*The models are evaluated using evaluation metrics such as Mean Squared Error, Root Mean Squared Error, R-squared score, etc. The final model chosen is the one that performs the best on the evaluation metrics.
+- The models are evaluated using evaluation metrics such as Mean Squared Error, Root Mean Squared Error, R-squared score, etc. The final model chosen is the one that performs the best on the evaluation metrics.
 
-*In this case, the final model chosen is RandomForestRegressor which gave an R-squared score of around 86%, which is considered good for a supervised learning algorithm.
+- In this case, the final model chosen is RandomForestRegressor which gave an R-squared score of around 86%, which is considered good for a supervised learning algorithm.
 
 ## Web application Screenshot
 ![image](https://user-images.githubusercontent.com/78245820/214334137-9faeee52-7f4d-4491-acd0-cf57cd0f1a36.png)
