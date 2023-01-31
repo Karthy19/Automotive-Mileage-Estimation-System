@@ -1,5 +1,5 @@
 
-# Car-Mileage-Prediction-System
+# Automotive-Mileage-Prediction-System
 This is is a web application built using the Django web framework that allows users to predict the miles per gallon (MPG) of a car based on input parameters. The input parameters are collected from a website form and include the number of cylinders, displacement, horsepower, weight, model year, and origin of the car.
 
 The input data is then passed to a Jupyter notebook where a machine learning algorithm is applied to estimate the MPG. The machine learning algorithm used to predict the MPG could be a regression model, such as linear regression or random forest regression. These models are trained on a dataset that contains historical data on car characteristics and their corresponding MPG.
